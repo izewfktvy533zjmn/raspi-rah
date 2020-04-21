@@ -23,7 +23,13 @@ docker run -d  \
   izewfktvy533zjmn/raspi-rah
 ```
 
-Enter your Rosetta@home account keys in _**"\<your_account_key\>"**_ .
+Enter your Rosetta@home account keys in _**"\<your_account_key\>"**_ .  
+
+If you want to see tasks progress, you can issue a command via,
+
+```
+docker exec raspi-rah /usr/bin/boinccmd --get_tasks
+```
 
 
 ## More Info
