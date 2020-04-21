@@ -35,4 +35,4 @@ docker exec raspi-rah /usr/bin/boinccmd --get_tasks
 ## More Info
 - How to build it yourself: ```docker build -t raspi-rah ./```
 - Shell access whilst the container is running: ```docker exec -it raspi-rah /bin/bash```
-- Monitor the logs of the container in realtime: ```docker logs -f raspi-rah```
+- Monitor the logs of the container in real-time: ```docker logs -f raspi-rah```
