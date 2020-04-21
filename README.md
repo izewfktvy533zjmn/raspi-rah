@@ -18,7 +18,8 @@ Run Rosetta@home in Docker container on Raspberry Pi with arm64v8.
 
 
 ## Usage
-The following command runs Rosetta@home in Docker contaienr.
+The following command runs Rosetta@home in Docker contaienr.  
+Please enter your Rosetta@home account keys in _**"\<your_account_key\>"**_ .  
 
 ```
 docker run -d  \
@@ -27,7 +28,7 @@ docker run -d  \
   izewfktvy533zjmn/raspi-rah
 ```
 
-Enter your Rosetta@home account keys in _**"\<your_account_key\>"**_ .  
+&nbsp;
 
 If you want to see tasks progress, you should issue a command via,
 
