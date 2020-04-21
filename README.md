@@ -2,6 +2,8 @@
 ## Overview
 Run Rosetta@home in Docker container on Raspberry Pi with arm64v8.
 
+&nbsp;
+
 
 
 ## Prerequisites
@@ -10,6 +12,8 @@ Run Rosetta@home in Docker container on Raspberry Pi with arm64v8.
 
 ### Docker
  - v19.03.8
+
+&nbsp;
 
 
 
@@ -30,6 +34,9 @@ If you want to see tasks progress, you should issue a command via,
 ```
 docker exec raspi-rah /usr/bin/boinccmd --get_tasks
 ```
+
+&nbsp;
+
 
 
 ## More Info
