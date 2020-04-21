@@ -25,7 +25,7 @@ docker run -d  \
 
 Enter your Rosetta@home account keys in _**"\<your_account_key\>"**_ .  
 
-If you want to see tasks progress, you can issue a command via,
+If you want to see tasks progress, you should issue a command via,
 
 ```
 docker exec raspi-rah /usr/bin/boinccmd --get_tasks
