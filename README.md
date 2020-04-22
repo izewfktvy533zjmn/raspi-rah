@@ -7,6 +7,8 @@ Run Rosetta@home in Docker container on Raspberry Pi with arm64v8.
 
 
 ## Prerequisites
+Operation in the following production environment has been verified.  
+
 ### Raspberry Pi 4
  - [ubuntu-18.04.4-preinstalled-server-arm64+raspi3.img](https://ubuntu.com/download/raspberry-pi)
 
