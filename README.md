@@ -1,6 +1,6 @@
 # raspi-rah
 ## Overview
-Run Rosetta@home in Docker container on Raspberry Pi with arm64v8.
+Run Rosetta@home in Docker container on Raspberry Pi with arm64.
 
 &nbsp;
 
@@ -10,7 +10,7 @@ Run Rosetta@home in Docker container on Raspberry Pi with arm64v8.
 Operation in the following production environment has been verified.  
 
 ### Raspberry Pi 4
- - [ubuntu-18.04.4-preinstalled-server-arm64+raspi3.img](https://ubuntu.com/download/raspberry-pi)
+ - [ubuntu-18.04.4-preinstalled-server-arm64+raspi4.img](https://ubuntu.com/download/raspberry-pi)
 
 ### Docker
  - v19.03.8
@@ -27,7 +27,7 @@ Please enter your Rosetta@home account keys in _**"\<your_account_key\>"**_ .
 docker run -d  \
   --name raspi-rah \
   --env ROSETTA_AT_HOME_ACCOUNT_KEY=<your_account_key> \
-  izewfktvy533zjmn/raspi-rah
+  izewfktvy533zjmn/raspi-rah:arm64
 ```
 
 &nbsp;
